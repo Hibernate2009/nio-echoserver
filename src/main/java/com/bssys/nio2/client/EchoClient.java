@@ -1,4 +1,4 @@
-package com.bssys.nio2;
+package com.bssys.nio2.client;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

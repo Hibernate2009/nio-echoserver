@@ -1,8 +1,10 @@
-package com.bssys.nio2;
+package com.bssys.nio2.client;
 
 import java.nio.ByteBuffer;
 import java.nio.channels.AsynchronousSocketChannel;
 import java.nio.channels.CompletionHandler;
+
+import com.bssys.nio2.SessionState;
 
 public class ClientCompletionHandler implements CompletionHandler<Void, SessionState>{
 	
